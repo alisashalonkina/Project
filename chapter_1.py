@@ -1,3 +1,4 @@
+#1.	ПЕРВИЧНЫЙ АНАЛИЗ НАБОРА ТАБЛИЧНЫХ ДАННЫХ 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,7 +11,7 @@ try:
 except FileNotFoundError:
     print("Ошибка: Файл SKATERS.csv не найден.")
 
-# Выведем первые 5 строк таблицы
+# первые 5 строк таблицы
 print(df.head())
 # 1.3.1.	Визуализация распределения признаков
 numeric_cols = ['games', 'goals', 'assists', 'time'] # Числовые признаки, которые будем анализировать
